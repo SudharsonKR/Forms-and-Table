@@ -1,28 +1,3 @@
-// // let submit = document.querySelector("#event_click");
-// // submit.addEventListener("click", ()=>{
-// //     console.log("check")
-// // })
-
-
-
-// let form=document.getElementById("form-id");
-// form.addEventListener("submit", (event)=>{
-//     event.preventDefault()//stop refreshing page
-//     let fname = document.getElementById("FirstName")
-//     let LstName = document.getElementById("LastName")
-//     let addr = document.getElementById("Address")
-//     let pin = document.getElementById("PinCode")
-//     let gender = document.getElementById("gender")
-//     let fchoice = document.getElementById("First Choice")
-//     let snchoice = document.getElementById("Second Choice")
-//     let st = document.getElementById("state Choice")
-//     let co = document.getElementById("Country Choice")
-
-// //      fname.addEventListener("input", ()=>{
-// // // console.log("sudharson")
-// //      })
-//      document.body.append(fname.value, LstName.value);
-// })
 function addData()
 
 {
