@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: skyblue;
+
+}
+.container{
+    height: 70vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    border-style: dashed;
+    }
+
+    .inputfiled{
+        margin-bottom: 15px;
+        display: flex;
+        
+    }
+    
+
+    label{
+        width: 200px;
+
+    }
+
+    
+    #table{
+        border-color: brown;
+        box-sizing: content-box;
+        justify-content: center;
+        display: flex;
+        align-items: center;
+    }
+
+    th{
+        background-color: #9FA6B2;
+    }
+
+    td{
+        background-color: white;
+    }

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms and Table</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 align="center"> Forms and Table</h1>
+    <div class="container">
+    <form id="form-id">
+        <div class="inputfiled">
+        
+            <label>First Name</label>
+            <input type="text" name="FirstName" id="FirstName">
+        
+        </div>
+        <div class="inputfiled">
+            
+            <label>Last Name</label>
+            <input type="text" name="LastName" id="LastName">
+        </div>
+        <div class="inputfiled">
+            <label>Address</label>
+            <textarea class="textarea" name="textarea" id="textarea" value="textarea"></textarea>
+        </div>
+        <div class="inputfiled">
+            <label>PinCode</label>
+            <input type="number" name="PinCode" id="PinCode">
+        </div>
+        <div class="inputfiled">
+            <label>Gender</label>
+            <input type="radio" name="gender" value="Male" id="gender1">Male
+            <input type="radio" name="gender" value="Female" id="gender2">Female
+            <input type="radio" name="gender" value="Other" id="gender3">Other
+        </div>
+        <div class="inputfiled">
+            <label>First Choice</label>
+            <input type="radio" name="First Choice" value="Veg Food" id="FirstChoice">Veg Food
+            <input type="radio" name="First Choice" value="Non-Veg Food" id="FirstChoice">Non-Veg Food
+            <input type="radio" name="First Choice" value="Fruit Food" id="FirstChoice">Fruit Food
+            <input type="radio" name="First Choice" value="SanVeg Food" id="FirstChoice">SanVeg Food
+            <input type="radio" name="First Choice" value="Sea Food" id="FirstChoice">Sea Food
+        </div>  
+        <div class="inputfiled">
+              <label>Second Choice</label>
+              <input type="radio" name="Second Choice" value="Veg Food" id="SecondChoice">Veg Food
+              <input type="radio" name="Second Choice" value="Non-Veg Food" id="SecondChoice">Non-Veg Food
+              <input type="radio" name="Second Choice" value="Fruit Food" id="SecondChoice">Fruit Food
+              <input type="radio" name="Second Choice" value="SanVeg Food" id="SecondChoice">SanVeg Food
+              <input type="radio" name="Second Choice" value="Sea Food" id="SecondChoice">Sea Food
+                <br>
+          </div>
+          <div class="inputfiled">   
+            <label>State</label>
+            <select>                
+            <option name="state" id="state">TamilNadu</option>
+            <option name="state" id="state">Kerala</option>
+            <option name="state" id="state">karnataka</option>
+            <option name="state" id="state">Delhi</option>
+            </select>
+        </div>
+            <div class="inputfiled">
+        <label>Country</label>
+        <select>                    
+            <option name="Country" id="Country">India</option>
+            <option name="Country" id="Country">Pakistan</option>
+            <option name="Country" id="Country">China</option>
+            <option name="Country" id="Country">America</option> 
+            </select>
+            
+            </div>
+
+            <div align="center">
+                <button id="add" onclick="addData();">Submit</button>
+            </div>
+    </div>
+    
+    </form>
+    
+    </div>
+    <div id="table">
+        <style>table, th, td {border: 2px solid black;
+            border-collapse: collapse;}
+        </style>
+    <table>
+        <thead><caption><h3>Table</h3></caption></thead>
+        
+        <tbody id="rows">
+        <tr>
+            <th rowspan="2">First Name</th>
+            <th rowspan="2">Last Name</th>
+            <th rowspan="2">Address</th>
+            <th rowspan="2">Pincode</th>
+            <th rowspan="2">Gender</th>
+            <th colspan="2">Food</th>
+            <th rowspan="2">State</th>
+            <th rowspan="2">Country</th>
+        </tr>
+        <tr>
+            <th>First Choice</th>
+            <th>Second Choice</th>
+        </tr>
+               
+        </table>
+        </div>
+        <div >
+<script src="script.js"></script>
+</body>
+</html>
