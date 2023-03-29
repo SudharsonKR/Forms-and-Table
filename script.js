@@ -1,6 +1,3 @@
-function addData()
-
-{
     let form=document.getElementById("form-id");
     form.addEventListener("submit", (event)=>{
         event.preventDefault()  //stop refreshing page
@@ -79,20 +76,20 @@ newCell.innerHTML = fname;
 
         
         document.getElementById("rows").appendChild(newRow);
-        document.getElementById("fname").value = null;
-        document.getElementById("LstName").value = null;
-        document.getElementById("addr").value = null;        
-        document.getElementById("pin").value = null;  
-        document.getElementById('gen_value').innerHTML = null;
-        document.getElementById("fchoice_value").value = null;
-        document.getElementById("snchoice_value").value = null;
-        document.getElementById("st_value").value = null;
-        document.getElementById("co_value").value = null;
+        // document.getElementById("fname").value = null;
+        // document.getElementById("LstName").value = null;
+        // document.getElementById("addr").value = null;        
+        // document.getElementById("pin").value = null;  
+        // document.getElementById('gen_value').innerHTML = null;
+        // document.getElementById("fchoice_value").value = null;
+        // document.getElementById("snchoice_value").value = null;
+        // document.getElementById("st_value").value = null;
+        // document.getElementById("co_value").value = null;
         // document.getElementById("form-id").reset();                    
     })
     
                   
-}
+
 
 
 
